@@ -14,10 +14,10 @@ class Main extends Component {
                 <Navbar>
                     <Container className='nav'>
                             <Image
-                            alt=""
-                            src={logo}
-                            className="logo"
-                            fluid
+                                alt=""
+                                src={logo}
+                                className="logo"
+                                fluid
                             />   
                     </Container>
                 </Navbar>
