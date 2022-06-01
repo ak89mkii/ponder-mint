@@ -13,6 +13,17 @@ body {
   padding: 10px;
 }
 
+.logo2 {
+  height: 80px;
+  padding: 10px;
+}
+
+.imgGroup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title {
   font-size: 70px;
 }
