@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react'
 import '../../App.css'
 import { Navbar, Nav, Image, Container } from 'react-bootstrap';
-import projects from '../../Img/main.png';
+import projects from '../../Img/04.png';
 import etsy from '../../Img/etsy.png';
 import google from '../../Img/google.png';
 import itch from '../../Img/itch.png';
@@ -45,11 +45,11 @@ class Main extends Component {
 
                     <h5>A.I. Chasm Games, (Ponder Enterprises Tabletop and Video Games Branch)</h5>
 
-                    <p><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a>- Itch.io: Bug Buster (2D platformer with coding commentary), Schrodinger the Cat (2D top-down puzzle game).</p>
+                    <p><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a>- Itch.io: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</p>
 
                     <p><a href="https://play.google.com/store/apps/developer?id=ak89mkii" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Flappy Flea (2D endless runner style game).</p>
 
-                    <p><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a>- The Game Crafter: Codeck (Programming card game), Nerd Word (Competative nerd trivia card game), Routes and Reptiles (Race to the finish RPG board game).</p>
+                    <p><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a>- The Game Crafter: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</p>
                 </Container>
             </div>
         )
