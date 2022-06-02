@@ -33,7 +33,7 @@ class Main extends Component {
                     
                     <h5>Ponder Mint LLC (Parent Company)</h5>
                     
-                    <p><a href="https://www.pondermint.com/" target="_blank"><Image className='logo2' src={logo} /></a>- Subsidiary: Ponder Enterprises LLC | Ponder Code | A.I. Chasm Games (A division of Ponder Enterprises).</p>
+                    <p><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo} /></a>- Subsidiary: Ponder Enterprises LLC | Ponder Code | A.I. Chasm Games (A division of Ponder Enterprises).</p>
 
                     <h5>Ponder Enterprises LLC | Ponder Code (Registered Alternate Name)</h5>
 
