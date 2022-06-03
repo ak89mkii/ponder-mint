@@ -47,7 +47,7 @@ class Main extends Component {
 
                     <p><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a>- Itch.io: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</p>
 
-                    <p><a href="https://play.google.com/store/apps/developer?id=ak89mkii" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Flappy Flea (2D endless runner style game).</p>
+                    <p><a href="https://play.google.com/store/apps/dev?id=8681443175320372232" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Flappy Flea (2D endless runner style game).</p>
 
                     <p><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a>- The Game Crafter: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</p>
                 </Container>
