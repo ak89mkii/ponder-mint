@@ -43,6 +43,9 @@ class Main extends Component {
                     
                     <p><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a>- Deployed Apps: Code Seonbi (Coding references and bug Tracker) | Sholodex.com, the Show Lowdown Index (Streaming platform price guide and calculator).</p>
 
+                    <p><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Dual-Lists (Simple shopping list tracking app).</p>
+
+
                     <h5>A.I. Chasm Games, (Ponder Enterprises Tabletop and Video Games Branch)</h5>
 
                     <p><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a>- Itch.io: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</p>
