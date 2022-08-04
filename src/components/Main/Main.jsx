@@ -9,6 +9,9 @@ import teepublic from '../../Img/teepublic.png';
 import tgc from '../../Img/tgc.png';
 import logo from '../../Img/01.png';
 import logo3 from '../../Img/03.png';
+import ecom from '../../Img/ecom.png';
+import pondere from '../../Img/pondere.png';
+import games from '../../Img/games.png';
 
 class Main extends Component {
     state = {
@@ -31,28 +34,50 @@ class Main extends Component {
                     />
                     <p className='subTitle'>Ponder Mint Company, Brand, and Project Breakdown</p>
                     
-                    <h5>Ponder Mint LLC (Parent Company)</h5>
-                    
-                    <p><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo} /></a>- Subsidiary: Ponder Enterprises LLC | Ponder Code | A.I. Chasm Games (A division of Ponder Enterprises).</p>
+                    <h4><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo} /></a>Ponder Mint LLC (Parent Company)</h4>
 
-                    <h5>Ponder Enterprises LLC | Ponder Code (Registered Alternate Name)</h5>
+                    <ul>
 
-                    <p><a href="https://www.etsy.com/shop/PonderEnterprises?ref=seller-platform-mcnav" target="_blank"><Image className='logo2' src={etsy} /></a>- Etsy Store: Fidget Ki (3D printed fidget gadget).</p>
-
-                    <p><a href="https://www.teepublic.com/user/ponder-print" target="_blank"><Image className='logo2' src={teepublic} /></a>- TeePublic Store: custom nerdy shirts, stickers, mugs, and prints (largely programming related).</p>
-                    
-                    <p><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a>- Deployed Apps: Code Seonbi (Coding references and bug Tracker) | Sholodex.com, the Show Lowdown Index (Streaming platform price guide and calculator).</p>
-
-                    <p><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Dual-Lists (Simple shopping list tracking app).</p>
+                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={pondere} /></a><b>Ponder Enterprises LLC</b></li>
 
 
-                    <h5>A.I. Chasm Games, (Ponder Enterprises Tabletop and Video Games Branch)</h5>
+                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo3} /></a><b>Ponder Code</b></li>
 
-                    <p><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a>- Itch.io: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</p>
+                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={games} /></a><b>A.I. Chasm Games (A division of Ponder Enterprises)</b></li>
 
-                    <p><a href="https://play.google.com/store/apps/dev?id=8681443175320372232" target="_blank"><Image className='logo2' src={google} /></a>- Google Play: Flappy Flea (2D endless runner style game).</p>
+                    </ul>
 
-                    <p><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a>- The Game Crafter: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</p>
+                    <h4><Image className='logo2' src={pondere} /> | <Image className='logo2' src={logo3} />Ponder Enterprises LLC | Ponder Code (Registered Alternate Name)</h4>
+
+                    <ul>       
+
+                        <li><a href="https://www.etsy.com/shop/PonderEnterprises?ref=seller-platform-mcnav" target="_blank"><Image className='logo2' src={etsy} /></a><b>Etsy Store</b>: Fidget Ki (3D printed fidget gadget).</li>
+
+                        <li><a href="https://www.teepublic.com/user/ponder-print" target="_blank"><Image className='logo2' src={teepublic} /></a><b>TeePublic Store</b>: Custom nerdy shirts, stickers, mugs, and prints (largely programming related).</li>
+                        
+                        <li><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a><b>Software Development</b>: Code Seonbi (Coding references and bug Tracker) | Sholodex.com, the Show Lowdown Index (Streaming platform price guide and calculator).</li>
+
+                        <li><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Dual-Lists (Simple shopping list tracking app).</li>
+
+                        <li><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={ecom} /></a><b>E-Commerce</b>: Video games, consoles, accessories, and tabletop games.</li>
+
+                        <li>
+
+                        <p><b><Image className='logo2' src={games} />A.I. Chasm Games, (Ponder Enterprises Tabletop and Video Games Branch)</b>:</p>
+
+                        <ul>
+                            
+                            <li><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a><b>Itch.io</b>: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</li>
+
+                            <li><a href="https://play.google.com/store/apps/dev?id=8681443175320372232" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Flappy Flea (2D endless runner style game).</li>
+
+                            <li><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a><b>The Game Crafter</b>: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</li>
+
+                        </ul>
+                        
+                        </li>
+
+                    </ul>
                 </Container>
             </div>
         )
