@@ -59,7 +59,7 @@ class Main extends Component {
 
                         <li><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Dual-Lists (Simple shopping list tracking app).</li>
 
-                        <li><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={ecom} /></a><b>E-Commerce</b>: Video games, consoles, accessories, and tabletop games.</li>
+                        <li><a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={ecom} /></a><b>E-Commerce</b>: Video games, consoles, accessories, and tabletop games.</li>
 
                         <li>
 
@@ -69,9 +69,9 @@ class Main extends Component {
                             
                             <li><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a><b>Itch.io</b>: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</li>
 
-                            <li><a href="https://play.google.com/store/apps/dev?id=8681443175320372232" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Flappy Flea (2D endless runner style game).</li>
+                            <li><a href="https://play.google.com/store/apps/details?id=ak89.ig88" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Flappy Flea (2D endless runner style game).</li>
 
-                            <li><a href="https://www.thegamecrafter.com/designers/ponder-mint-games" target="_blank"><Image className='logo2' src={tgc} /></a><b>The Game Crafter</b>: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</li>
+                            <li><a href="https://www.thegamecrafter.com/designers/a.i.-chasm-games" target="_blank"><Image className='logo2' src={tgc} /></a><b>The Game Crafter</b>: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</li>
 
                         </ul>
                         
