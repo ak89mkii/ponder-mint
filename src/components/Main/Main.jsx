@@ -38,12 +38,12 @@ class Main extends Component {
 
                     <ul>
 
-                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={pondere} /></a><b>Ponder Enterprises LLC</b></li>
+                        <li><a href="" target="_blank"><Image className='logo2' src={pondere} /></a><b>Ponder Enterprises LLC</b></li>
 
 
-                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo3} /></a><b>Ponder Code</b></li>
+                        <li><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a><b>Ponder Code</b></li>
 
-                        <li><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={games} /></a><b>A.I. Chasm Games (A division of Ponder Enterprises)</b></li>
+                        <li><a href="" target="_blank"><Image className='logo2' src={games} /></a><b>A.I. Chasm Games (A division of Ponder Enterprises)</b></li>
 
                     </ul>
 
