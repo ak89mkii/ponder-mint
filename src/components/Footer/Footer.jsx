@@ -12,7 +12,7 @@ class Footer extends Component {
                 <div class="container">
                     <div class='row'>
                         <div class="col">
-                            © 2017 - 2022 Ponder Mint LLC
+                            © 2017 - 2023 Ponder Mint LLC
                         </div>
                     </div>
                 </div>
