@@ -1,7 +1,6 @@
 import React, { Component, createRef } from 'react'
 import '../../App.css'
 import { Navbar, Nav, Image, Container } from 'react-bootstrap';
-import projects from '../../Img/04.png';
 import etsy from '../../Img/etsy.png';
 import google from '../../Img/google.png';
 import itch from '../../Img/itch.png';
@@ -22,22 +21,54 @@ class Main extends Component {
         return (
             <div>
                 <Container>
-                    <p className='subTitle'>Ponder Mint Company, Brand, and Project Breakdown</p>
-                    
-                    <h4><a href="https://ak89mkii.wixsite.com/pondermint" target="_blank"><Image className='logo2' src={logo} /></a>Ponder Mint LLC (Parent Company)</h4>
+                    <p className='title'>Company Summary </p>
+                    <p className='subTitle'>Brand, Product, and Project Breakdown</p>
+                    <p>From software development to 3D printing, Ponder Mint is involved in various aspects of the creative process. Through Ponder Enterprises LLC, a Ponder Mint subsidiary, concepts and business ideas are tested as consumer available products. Below is a general breakdown of the Ponder Mint company structure.</p>
+                </Container>
+                <Container className='breakdown'>
+                
+                {/* Section 01: Ponder Mint LLC */}
+                <Image className='logo2' src={logo} />
+                <h4><b>- Ponder Mint LLC (Parent Company) -</b></h4>
+                <Image className='logo2' src={pondere} />
+                <p><b>Ponder Enterprises LLC (Subsidiary)</b></p>
+                <p>Ponder Enterprises LLC operates as a business ventures and distribution subsidiary of Ponder Mint.</p>
+                <Image className='logo2' src={logo3} />
+                <p><b>Ponder Code (Registered Alternate Name of Ponder Enterprises LLC)</b></p>
+                <p>Website and web application development firm.</p>
+                <br></br>
+                <h1>|</h1>
+                <br></br>
 
-                    <ul>
+                {/* Section 02: Ponder Enterprises LLC */}
+                <Image className='logo2' src={pondere} />
+                <h4><b>- Ponder Enterprises LLC -</b></h4>
+                <Image className='logo2' src={games} />
+                <p><b>A.I. Chasm Games (Ponder Enterprises Game Development Division)</b></p>
+                <p>Ponder Enterprises tabletop and video games branch.</p>
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={ecom} /></a>
+                <p><b>E-Commerce (Amazon Seller)</b></p>
+                <p> Video games, consoles, accessories, and tabletop games.</p>
+                <Image className='logo2' src={etsy} />
+                <p><b>Etsy Shop</b></p>
+                <p>An Etsy shop with a 3D printed gadgets and fidget devices product focus .</p>
+                <p>- Fidget Ki (3D printed fidget gadget)</p>
+                <Image className='logo2' src={pondere} />
+                <p><b>The Ponder Enterprises Store</b></p>
+                <p>The Ponder Enterprises store currently offer both original products and assorted retail games and gear.</p>
+                <Image className='logo2' src={teepublic} />
+                <p><b>TeePublic Shop</b></p>
+                <p>Custom nerdy shirts, stickers, mugs, and prints (largely programming related).</p>
+                <br></br>
+                <h1>|</h1>
+                <br></br>
 
-                        <li><a href="" target="_blank"><Image className='logo2' src={pondere} /></a><b>Ponder Enterprises LLC</b></li>
-
-
-                        <li><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a><b>Ponder Code</b></li>
-
-                        <li><a href="" target="_blank"><Image className='logo2' src={games} /></a><b>A.I. Chasm Games (A division of Ponder Enterprises)</b></li>
-
-                    </ul>
-
-                    <h4><Image className='logo2' src={pondere} /> | <Image className='logo2' src={logo3} />Ponder Enterprises LLC | Ponder Code (Registered Alternate Name)</h4>
+                {/* Section 03: Ponder Code */}
+                <Image className='logo2' src={logo3} />
+                <h4><b>- Ponder Code -</b></h4>
+                <br></br>
+                <h1>|</h1>
+                <br></br>
 
                     <ul>       
 
