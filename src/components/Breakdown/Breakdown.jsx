@@ -66,6 +66,9 @@ class Main extends Component {
                 {/* Section 03: Ponder Code */}
                 <Image className='logo2' src={logo3} />
                 <h4><b>- Ponder Code -</b></h4>
+                <p>- Code Seonbi (A web-based coding references and bug tracking application)</p>
+                <p>- DiceDex.io (A tabletop game group database and tracker)</p>
+                <p>- Sholodex.com (The Show Lowdown Index. A breakdown of the most popular streaming services' pricing tiers and interactive costs total calculator)</p>
                 <br></br>
                 <h1>|</h1>
                 <br></br>
@@ -91,40 +94,6 @@ class Main extends Component {
                 <p>- Codeck (programming card game)</p>
                 <p>- Nerd Word (competative nerd trivia card game)</p>
                 <p>- Routes and Reptiles (Race to the finish RPG board game)</p>
-
-                <br></br>
-                <h1>|</h1>
-                <br></br>
-
-                    <ul>       
-
-                        <li><a href="https://www.etsy.com/shop/PonderEnterprises?ref=seller-platform-mcnav" target="_blank"><Image className='logo2' src={etsy} /></a><b>Etsy Store</b>: Fidget Ki (3D printed fidget gadget).</li>
-
-                        <li><a href="https://www.teepublic.com/user/ponder-print" target="_blank"><Image className='logo2' src={teepublic} /></a><b>TeePublic Store</b>: Custom nerdy shirts, stickers, mugs, and prints (largely programming related).</li>
-                        
-                        <li><a href="https://www.pondercode.com/" target="_blank"><Image className='logo2' src={logo3} /></a><b>Software Development</b>: Code Seonbi (Coding references and bug Tracker) | Sholodex.com, the Show Lowdown Index (Streaming platform price guide and calculator).</li>
-
-                        <li><a href="https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Dual-Lists (Simple shopping list tracking app).</li>
-
-                        <li><a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={ecom} /></a><b>E-Commerce</b>: Video games, consoles, accessories, and tabletop games.</li>
-
-                        <li>
-
-                        <p><b><Image className='logo2' src={games} />A.I. Chasm Games, (Ponder Enterprises Tabletop and Video Games Branch)</b>:</p>
-
-                        <ul>
-                            
-                            <li><a href="https://a-i-chasm-games.itch.io/" target="_blank"><Image className='logo2' src={itch} /></a><b>Itch.io</b>: Bug Buster (2D platformer with coding commentary) | Schrodinger the Cat (2D top-down puzzle game).</li>
-
-                            <li><a href="https://play.google.com/store/apps/details?id=ak89.ig88" target="_blank"><Image className='logo2' src={google} /></a><b>Google Play</b>: Flappy Flea (2D endless runner style game).</li>
-
-                            <li><a href="https://www.thegamecrafter.com/designers/a.i.-chasm-games" target="_blank"><Image className='logo2' src={tgc} /></a><b>The Game Crafter</b>: Codeck (Programming card game) | Nerd Word (Competative nerd trivia card game) | Routes and Reptiles (Race to the finish RPG board game).</li>
-
-                        </ul>
-                        
-                        </li>
-
-                    </ul>
                 </Container>
             </div>
         )
