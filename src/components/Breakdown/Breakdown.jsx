@@ -70,6 +70,32 @@ class Main extends Component {
                 <h1>|</h1>
                 <br></br>
 
+                {/* Section 04: A.I. Chasm Games */}
+                <Image className='logo2' src={games} />
+                <h4><b>- A.I. Chasm Games -</b></h4>
+                <Image className='logo2' src={itch} />
+                <p><b>Itch.io Shop</b></p>
+                <p>A web-based video game hosting platform and storefront. You can try A.I. Chasm video game projects here.</p>
+                <p>- Bug Buster (2D platformer with coding commentary)</p>
+                <p>- Schrodinger the Cat (2D top-down puzzle game).</p>
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={google} /></a>
+                <p><b>Google Play App Store</b></p>              
+                <p>Android apps and games.</p>
+                <p>- Dual-Lists (simple shopping list tracking app)</p>
+                <p>- Dual-Lists 2 (simple shopping list tracking app with save feature)</p>
+                <p>- Flappy Flea (2D endless runner style game)</p>
+                <Image className='logo2' src={tgc} />
+                <p><b>The Game Crafter Shop</b></p>
+                <p>A custom tabletop game storefront and manufacting plaform.</p>
+                <p>- Cataclysm (Dualing elemental nand nature card game)</p>
+                <p>- Codeck (programming card game)</p>
+                <p>- Nerd Word (competative nerd trivia card game)</p>
+                <p>- Routes and Reptiles (Race to the finish RPG board game)</p>
+
+                <br></br>
+                <h1>|</h1>
+                <br></br>
+
                     <ul>       
 
                         <li><a href="https://www.etsy.com/shop/PonderEnterprises?ref=seller-platform-mcnav" target="_blank"><Image className='logo2' src={etsy} /></a><b>Etsy Store</b>: Fidget Ki (3D printed fidget gadget).</li>
