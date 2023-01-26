@@ -12,7 +12,7 @@ import ecom from '../../Img/ecom.png';
 import pondere from '../../Img/pondere.png';
 import games from '../../Img/games.png';
 
-class Main extends Component {
+class Breakdown extends Component {
     state = {
 
     }
@@ -30,10 +30,16 @@ class Main extends Component {
                 {/* Section 01: Ponder Mint LLC */}
                 <Image className='logo2' src={logo} />
                 <h4><b>- Ponder Mint LLC (Parent Company) -</b></h4>
-                <Image className='logo2' src={pondere} />
+                {/* 01 */}
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={pondere} />
+                </a>
                 <p><b>Ponder Enterprises LLC (Subsidiary)</b></p>
                 <p>Ponder Enterprises LLC operates as a business ventures and distribution subsidiary of Ponder Mint.</p>
-                <Image className='logo2' src={logo3} />
+                {/* 02 */}
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={logo3} />
+                </a>                
                 <p><b>Ponder Code (Registered Alternate Name of Ponder Enterprises LLC)</b></p>
                 <p>Website and web application development firm.</p>
                 <br></br>
@@ -41,22 +47,34 @@ class Main extends Component {
                 <br></br>
 
                 {/* Section 02: Ponder Enterprises LLC */}
-                <Image className='logo2' src={pondere} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={pondere} />
+                </a>
                 <h4><b>- Ponder Enterprises LLC -</b></h4>
-                <Image className='logo2' src={games} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={games} />
+                </a>
                 <p><b>A.I. Chasm Games (Ponder Enterprises Game Development Division)</b></p>
                 <p>Ponder Enterprises tabletop and video games branch.</p>
-                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={ecom} /></a>
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={ecom} />
+                </a>
                 <p><b>E-Commerce (Amazon Seller)</b></p>
                 <p> Video games, consoles, accessories, and tabletop games.</p>
-                <Image className='logo2' src={etsy} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={etsy} />
+                </a>
                 <p><b>Etsy Shop</b></p>
                 <p>An Etsy shop with a 3D printed gadgets and fidget devices product focus .</p>
                 <p>- Fidget Ki (3D printed fidget gadget)</p>
-                <Image className='logo2' src={pondere} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={pondere} />
+                </a>
                 <p><b>The Ponder Enterprises Store</b></p>
                 <p>The Ponder Enterprises store currently offer both original products and assorted retail games and gear.</p>
-                <Image className='logo2' src={teepublic} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={teepublic} />
+                </a>
                 <p><b>TeePublic Shop</b></p>
                 <p>Custom nerdy shirts, stickers, mugs, and prints (largely programming related).</p>
                 <br></br>
@@ -64,7 +82,9 @@ class Main extends Component {
                 <br></br>
 
                 {/* Section 03: Ponder Code */}
-                <Image className='logo2' src={logo3} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={logo3} />
+                </a>
                 <h4><b>- Ponder Code -</b></h4>
                 <p>- Code Seonbi (A web-based coding references and bug tracking application)</p>
                 <p>- DiceDex.io (A tabletop game group database and tracker)</p>
@@ -74,20 +94,28 @@ class Main extends Component {
                 <br></br>
 
                 {/* Section 04: A.I. Chasm Games */}
-                <Image className='logo2' src={games} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={games} />
+                </a>
                 <h4><b>- A.I. Chasm Games -</b></h4>
-                <Image className='logo2' src={itch} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={itch} />
+                </a>
                 <p><b>Itch.io Shop</b></p>
                 <p>A web-based video game hosting platform and storefront. You can try A.I. Chasm video game projects here.</p>
                 <p>- Bug Buster (2D platformer with coding commentary)</p>
                 <p>- Schrodinger the Cat (2D top-down puzzle game).</p>
-                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank"><Image className='logo2' src={google} /></a>
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={google} />
+                </a>
                 <p><b>Google Play App Store</b></p>              
                 <p>Android apps and games.</p>
                 <p>- Dual-Lists (simple shopping list tracking app)</p>
                 <p>- Dual-Lists 2 (simple shopping list tracking app with save feature)</p>
                 <p>- Flappy Flea (2D endless runner style game)</p>
-                <Image className='logo2' src={tgc} />
+                <a href="https://www.amazon.com/sp?ie=UTF8&seller=A3MN8FMN4UC094&isAmazonFulfilled=0&asin=B08KXB6SZH&ref_=olp_merch_name_6" target="_blank">
+                    <Image className='logo2' src={tgc} />
+                </a>
                 <p><b>The Game Crafter Shop</b></p>
                 <p>A custom tabletop game storefront and manufacting plaform.</p>
                 <p>- Cataclysm (Dualing elemental nand nature card game)</p>
@@ -100,4 +128,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default Breakdown;

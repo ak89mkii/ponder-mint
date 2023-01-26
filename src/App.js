@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './components/Main/Main.jsx'
 import Logo from './components/Logo/Logo.jsx'
 import Breakdown from './components/Breakdown/Breakdown.jsx'
+import Contact from './components/Contact/Contact.jsx'
 import Footer from './components/Footer/Footer.jsx'
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Logo />
         <Main />
         <Breakdown />
+        <Contact />
         <Footer />
       </div>
       
